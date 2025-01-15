@@ -1,0 +1,119 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(247, 244, 244);
+}
+
+/* title */
+header{
+    background-image: linear-gradient( to right,#098cdd,#3EA0DF,lightblue);
+    color: white;
+    height: 12vh;
+    width: 100vw;
+    margin-top: 2px;
+  
+}
+
+h1{
+    font-size: 8vh;
+    margin-left: 5vh;
+}
+
+/* subtitle*/
+h2{
+    color: #098cdd;
+    margin: 3vh;
+    font-size: 22px;
+}
+
+section{
+    display: flex;
+    width: 90vw;
+}
+
+/* Photograph */
+.perfil{
+    width: 40vh;
+    height: 40vh;
+    border: 5px solid #3EA0DF;
+    border-radius: 50%;
+    box-shadow: 1vw 1vw 3vw  #3ea1dfb9;
+    margin-left: 3vh;
+}
+
+/* About me */
+article{
+    margin: 0 5vh;
+    border-radius: 25px;
+    border: 2px dashed white;
+    background-color:#098cdd;
+    width: 150vh;
+}
+
+p{
+    margin: 3vh;
+    color:white;
+    padding: 10px;
+}
+
+/* Contact */
+.redes{
+    display: inline-flex;
+    width: 80vh;
+}
+
+.title_contact{
+    background-image: linear-gradient(to right,rgb(247, 244, 244),#098cdd,rgb(247, 244, 244));
+    color: white;
+    height: 4vh;
+    width: 40vh;    
+    padding: 2vh;
+    border-radius: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+h3{
+    padding-left: 10vh;
+}
+
+ul{
+    margin: 0;
+    width: 40vh;
+    height: 50vh;
+    justify-items: center;
+}
+
+li{
+    list-style: none;
+    margin: 2vh;
+    padding: 3px;
+    border-radius: 15px;
+    background-color:#098cdd;
+    width: 25vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 1vw 1vw 2vw #89c6ec9d;                             
+}
+
+.contato{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center; 
+    display: flex;  
+    height: 8vh; 
+}
+
+
+
+
+
