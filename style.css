@@ -33,13 +33,13 @@ h2{
 
 section{
     display: flex;
-    width: 90vw;
+    width: 90vw;    
 }
 
 /* Photograph */
 .perfil{
-    width: 40vh;
-    height: 40vh;
+    width: 30vh;
+    height: 30vh;
     border: 5px solid #3EA0DF;
     border-radius: 50%;
     box-shadow: 1vw 1vw 3vw  #3ea1dfb9;
@@ -50,14 +50,13 @@ section{
 article{
     margin: 0 5vh;
     border-radius: 25px;
-    border: 2px dashed white;
-    background-color:#098cdd;
+    border: 2px dashed #3EA0DF;
     width: 150vh;
 }
 
 p{
     margin: 3vh;
-    color:white;
+    color: #0b3047;
     padding: 10px;
 }
 
@@ -99,6 +98,12 @@ li{
     display: flex;
     align-items: center;
     box-shadow: 1vw 1vw 2vw #89c6ec9d;                             
+}
+
+li:hover{
+    transition: all 0.5s;
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWZ3M3BsODJwYjNvcHZuNnptZThxYmFqdmdkdmMyeGJwa3BsZ3NkZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jaOXKCxtBPLieRLI0c/giphy.gif');
+    background-attachment:local;
 }
 
 .contato{
