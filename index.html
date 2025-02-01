@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
     <title>Meu Protfólio</title>
 </head>
 <body>
+
     <header>
         <div class="interface">
             <div class="logo">
@@ -27,11 +29,35 @@
                 <a href="#">
                     <button>Contato</button>
                 </a>
-            </div><!--btn-conato-->
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Espcialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu">
+            </div><!--overlay-menu-->
+
         </div><!--interface-->
     </header>
 
     <main>
+
         <section class="topo-do-site">
             <div class="interface">
                 <div class="flex">
@@ -129,7 +155,28 @@
                     </form>
             </div><!--interface-->
         </section><!--formulario-->
+
     </main>
-    <footer></footer>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="img/logo01.png" alt="">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href=""><button><i class="bi bi-github"></i></button></a>
+                        <a href=""><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href=""><button><i class="bi bi-envelope-at-fill"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:lenilson.geovane@gmail.com">lenilson.geovane@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+
+    </footer>
 </body>
 </html>
